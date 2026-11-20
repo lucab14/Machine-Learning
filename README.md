@@ -231,4 +231,6 @@ outputs look blurry and flatly tinted, respectively. The main limitations:
 - **No quantitative evaluation.** The comparison relies on qualitative examples and
   loss curves only; there are no PSNR/SSIM/LPIPS numbers. There are also no pretrained
   weights or a demo, so reproducing the results means training from scratch on a
-  200k-image subset of Places365.
+  200k-image subset of Places365. (*Unfortunately, I lost those files while deleting the
+  dataset, due to the amount of memory that was being used*) :)
+  
