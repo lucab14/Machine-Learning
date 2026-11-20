@@ -5,8 +5,7 @@
 Automatic colorization of grayscale images on the **Places365** dataset. Three
 different approaches are implemented and compared: a **U-Net**, a **Variational
 Autoencoder (VAE)** and a **multimodal Transformer** that predicts a distribution
-over a quantized color palette. A project presentation with additional results is
-available in [`Colorazione di immagini greyscale.pdf`](Colorazione%20di%20immagini%20greyscale.pdf).
+over a quantized color palette.
 
 ## Table of Contents
 
@@ -109,7 +108,7 @@ Loss = KL Divergence
 ## 5. Results
 
 Qualitative results (input, colorized output, ground truth) and loss curves for
-each method. Figures are taken from the project presentation.
+each method.
 
 ### 5.1 U-Net
 
@@ -151,7 +150,6 @@ palette:
 ├── config.py                       # Shared hyperparameters and paths
 ├── utils.py                        # Dataset loading (Lab), transforms, visualization
 ├── requirements.txt
-├── Colorazione di immagini greyscale.pdf
 │
 ├── unet/                           # Method 1 - U-Net
 │   ├── colorization_model.py       #   ColorizationUNet architecture
